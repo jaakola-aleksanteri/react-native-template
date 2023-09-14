@@ -4,7 +4,6 @@ import { useTheme } from '@react-navigation/native';
 
 const HomeScreen = (): React.JSX.Element => {
   const { colors } = useTheme();
-  console.log(colors);
 
   return (
     <View
