@@ -1,27 +1,39 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Home!</Text>
-    </View>
-  );
-}
+// Define styles using StyleSheet.create
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  text: {
+    fontSize: 20,
+  },
+});
 
-function SettingsScreen() {
+const HomeScreen = () => {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Settings!</Text>
+    <View style={styles.container}>
+      <Text style={styles.text}>Home!</Text>
     </View>
   );
-}
+};
+
+const SettingsScreen = () => {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Settings!</Text>
+    </View>
+  );
+};
 
 const Tab = createBottomTabNavigator();
 
-export default function App() {
+const App = (): React.JSX.Element => {
   return (
     <NavigationContainer>
       <Tab.Navigator>
@@ -30,4 +42,6 @@ export default function App() {
       </Tab.Navigator>
     </NavigationContainer>
   );
-}
+};
+
+export { App };
