@@ -1,21 +1,21 @@
 import * as React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 20,
-  },
-});
+import { View, Text } from 'react-native';
+import { useTheme } from '@react-navigation/native';
+import styled from 'styled-components/native';
 
 const HomeScreen = (): React.JSX.Element => {
+  const { colors } = useTheme();
+  console.log(colors);
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Home!</Text>
+    <View
+      style={{
+        backgroundColor: colors.background,
+        justifyContent: 'center',
+        flex: 1,
+        alignItems: 'center',
+      }}>
+      <Text style={{ color: colors.text, fontSize: 20 }}>Home!</Text>
     </View>
   );
 };
