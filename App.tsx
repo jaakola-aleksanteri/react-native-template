@@ -10,15 +10,36 @@ import { HomeScreen, SettingsScreen } from './screens';
 
 const Tab = createBottomTabNavigator();
 
+export interface ThemeContextType {
+  theme: typeof DefaultTheme;
+  setTheme: React.Dispatch<React.SetStateAction<typeof DefaultTheme>>;
+}
+
+export const ThemeContext = React.createContext<ThemeContextType>({
+  theme: DefaultTheme,
+  setTheme: () => {},
+});
+
 const App = (): React.JSX.Element => {
   const scheme = useColorScheme();
+
+  const [theme, setTheme] = React.useState(
+    scheme === 'dark' ? DarkTheme : DefaultTheme,
+  );
+
+  const changeTheme = (newTheme: any) => {
+    setTheme(newTheme);
+  };
+
   return (
-    <NavigationContainer theme={scheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Settings" component={SettingsScreen} />
-      </Tab.Navigator>
-    </NavigationContainer>
+    <ThemeContext.Provider value={{ theme, setTheme: changeTheme }}>
+      <NavigationContainer theme={theme}>
+        <Tab.Navigator>
+          <Tab.Screen name="Home" component={HomeScreen} />
+          <Tab.Screen name="Settings" component={SettingsScreen} />
+        </Tab.Navigator>
+      </NavigationContainer>
+    </ThemeContext.Provider>
   );
 };
 
