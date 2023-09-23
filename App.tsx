@@ -27,8 +27,6 @@ const App = (): React.JSX.Element => {
     scheme === 'dark' ? DarkTheme : DefaultTheme,
   );
 
-  askp;
-
   const changeTheme = (newTheme: any) => {
     setTheme(newTheme);
   };

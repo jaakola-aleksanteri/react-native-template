@@ -7,6 +7,8 @@ const HomeScreen = (): React.JSX.Element => {
   const { colors } = useTheme();
   const asd = 0;
 
+  asåldoaåsndåon;
+
   const { theme, setTheme } = React.useContext(ThemeContext);
 
   const toggleTheme = () => {
