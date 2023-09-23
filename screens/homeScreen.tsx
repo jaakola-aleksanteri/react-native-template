@@ -5,6 +5,7 @@ import { ThemeContext } from '../App';
 
 const HomeScreen = (): React.JSX.Element => {
   const { colors } = useTheme();
+  const asd = 0;
 
   const { theme, setTheme } = React.useContext(ThemeContext);
 
