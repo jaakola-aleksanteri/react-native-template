@@ -24,7 +24,7 @@
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.8",
     "@react-navigation/native": "^6.1.8",
-    "@react-navigation/native-stack": "^6.9.13",
+    "@react-navigation/native-stack": "^6.9.14",
     "@tanstack/react-query": "^4.35.3",
     "@typescript-eslint/parser": "^6.7.2",
     "react": "18.2.0",
