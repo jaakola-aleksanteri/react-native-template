@@ -1824,16 +1824,16 @@
     jscodeshift "^0.14.0"
     nullthrows "^1.1.1"
 
-"@react-native/eslint-config@^0.72.2":
-  version "0.72.2"
-  resolved "https://registry.npmjs.org/@react-native/eslint-config/-/eslint-config-0.72.2.tgz"
-  integrity sha512-rAYuQQXzi63W7+9Pu/+23od/b/lTSzHjMFibum3sKgdG2LIyvhoMEWQ5+Chu7TqebqYy1b9SDn/KEMHvpWFtNg==
+"@react-native/eslint-config@^0.73.1":
+  version "0.73.1"
+  resolved "https://registry.yarnpkg.com/@react-native/eslint-config/-/eslint-config-0.73.1.tgz#2e75669260f324794a12e12e7064dd7fe613009b"
+  integrity sha512-Dgxk5JTfZqHvKL63iyMZanWqH/+P+GI3m7r7PtUEJgQbm+2XYbJnbAgJwebmDE7BzBFEcmxavjemHBkgs/eH3Q==
   dependencies:
     "@babel/core" "^7.20.0"
     "@babel/eslint-parser" "^7.20.0"
-    "@react-native/eslint-plugin" "^0.72.0"
-    "@typescript-eslint/eslint-plugin" "^5.30.5"
-    "@typescript-eslint/parser" "^5.30.5"
+    "@react-native/eslint-plugin" "^0.73.1"
+    "@typescript-eslint/eslint-plugin" "^5.57.1"
+    "@typescript-eslint/parser" "^5.57.1"
     eslint-config-prettier "^8.5.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-ft-flow "^2.0.1"
@@ -1843,10 +1843,10 @@
     eslint-plugin-react-hooks "^4.6.0"
     eslint-plugin-react-native "^4.0.0"
 
-"@react-native/eslint-plugin@^0.72.0":
-  version "0.72.0"
-  resolved "https://registry.npmjs.org/@react-native/eslint-plugin/-/eslint-plugin-0.72.0.tgz"
-  integrity sha512-xWQthnyKd+H22TBqeJUTFebsyWAAwzUb7EQCT8F/WMZsS1sv5UG+2cM/cU9/2HEbVZgxHYuLIi915WznjKPvlg==
+"@react-native/eslint-plugin@^0.73.1":
+  version "0.73.1"
+  resolved "https://registry.yarnpkg.com/@react-native/eslint-plugin/-/eslint-plugin-0.73.1.tgz#79d2c4d90c80bfad8900db335bfbaf1ca599abdc"
+  integrity sha512-8BNMFE8CAI7JLWLOs3u33wcwcJ821LYs5g53Xyx9GhSg0h8AygTwDrwmYb/pp04FkCNCPjKPBoaYRthQZmxgwA==
 
 "@react-native/gradle-plugin@^0.72.11":
   version "0.72.11"
@@ -2132,7 +2132,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^5.30.5":
+"@typescript-eslint/eslint-plugin@^5.30.5", "@typescript-eslint/eslint-plugin@^5.57.1":
   version "5.62.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.62.0.tgz"
   integrity sha512-TiZzBSJja/LbhNPvk6yc0JrX9XqhQ0hdh6M2svYfsHGejaKFIAGd9MQ+ERIMzLGlN/kZoYIgdxFV0PuljTKXag==
@@ -2148,7 +2148,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.30.5":
+"@typescript-eslint/parser@^5.30.5", "@typescript-eslint/parser@^5.57.1":
   version "5.62.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.62.0.tgz"
   integrity sha512-VlJEV0fOQ7BExOsHYAGrgbEiZoi8D+Bl2+f6V2RrXerRSylnp+ZBHmPvaIa8cz0Ajx7WO7Z5RqfgYg7ED1nRhA==
