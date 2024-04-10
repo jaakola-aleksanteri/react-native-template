@@ -2201,10 +2201,10 @@
   dependencies:
     "@tanstack/query-core" "5.29.0"
 
-"@tsconfig/react-native@^3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@tsconfig/react-native/-/react-native-3.0.4.tgz#7316adcb109e35cf29e5e4d39c1206d7df9f5f35"
-  integrity sha512-4DGkWtlT1EyaKxaSmBCVBr70rzwTStV4ch4ULJZYKJ8yyqWiBNxB4JL1p8a0aib40HiK3//i/JcLLPoVSP+TMQ==
+"@tsconfig/react-native@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@tsconfig/react-native/-/react-native-3.0.5.tgz#c4971b1eca2e8cdf7b0d25f40193a782039c1abd"
+  integrity sha512-0+pmYzHccvwWpFz2Tv5AJxp6UroLALmAy+SX34tKlwaCie1mNbtCv6uOJp7x8pKchgNA9/n6BGrx7uLQvw8p9A==
 
 "@types/babel__core@^7.1.14":
   version "7.20.1"
@@ -7340,10 +7340,10 @@ typed-array-length@^1.0.4:
     for-each "^0.3.3"
     is-typed-array "^1.1.9"
 
-typescript@5.4.3:
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.3.tgz#5c6fedd4c87bee01cd7a528a30145521f8e0feff"
-  integrity sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==
+typescript@5.4.4:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.4.tgz#eb2471e7b0a5f1377523700a21669dce30c2d952"
+  integrity sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
