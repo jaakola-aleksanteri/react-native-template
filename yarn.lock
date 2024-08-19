@@ -2027,29 +2027,28 @@
     temp-dir "^2.0.0"
     ws "^6.2.2"
 
-"@react-native/eslint-config@^0.74.84":
-  version "0.74.84"
-  resolved "https://registry.yarnpkg.com/@react-native/eslint-config/-/eslint-config-0.74.84.tgz#b39cc52811752afd7d6b9ffcf20c1b0f0f4cc1fd"
-  integrity sha512-QpMeMzg6QPN54K0LFasuqX52nyRF0dPIoh7ErXW7OoDatOMfxjB5CK7jVc1MqhKnUe5mz50BdQ44SOpzYr3xvw==
+"@react-native/eslint-config@^0.75.1":
+  version "0.75.1"
+  resolved "https://registry.yarnpkg.com/@react-native/eslint-config/-/eslint-config-0.75.1.tgz#f68b99b09c4fb65481efc038834d6ff0834b259c"
+  integrity sha512-f69WsbWJFwYLpZfQy4HDIteN0Fozf8rscD6IfI7ICUqMmAKAMJx+e568Z3ikktu15do2ovNgeJzrFA/dLb5wQA==
   dependencies:
     "@babel/core" "^7.20.0"
     "@babel/eslint-parser" "^7.20.0"
-    "@react-native/eslint-plugin" "0.74.84"
+    "@react-native/eslint-plugin" "0.75.1"
     "@typescript-eslint/eslint-plugin" "^7.1.1"
     "@typescript-eslint/parser" "^7.1.1"
     eslint-config-prettier "^8.5.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-ft-flow "^2.0.1"
     eslint-plugin-jest "^27.9.0"
-    eslint-plugin-prettier "^4.2.1"
     eslint-plugin-react "^7.30.1"
     eslint-plugin-react-hooks "^4.6.0"
     eslint-plugin-react-native "^4.0.0"
 
-"@react-native/eslint-plugin@0.74.84":
-  version "0.74.84"
-  resolved "https://registry.yarnpkg.com/@react-native/eslint-plugin/-/eslint-plugin-0.74.84.tgz#f0e9618551c9340caca7624001f8ce32794715c9"
-  integrity sha512-pDzo4Qm1uPZQne2sv0QK89ePxP/i+ZHjrBW3rkTVStLvsDVdyFahMmt6bzJTdYL2cGgK2oyNmfXtvO57INOu3Q==
+"@react-native/eslint-plugin@0.75.1":
+  version "0.75.1"
+  resolved "https://registry.yarnpkg.com/@react-native/eslint-plugin/-/eslint-plugin-0.75.1.tgz#c5e1f929d09da4da69fd87f1f1ee8681c9115bc1"
+  integrity sha512-RmUTmsUxWWr1FwRPA95rtsix7Ppoey+MejWT/G0MJoRtBN5UM2qmI03Y8+ZDM43MKeNHcmFLCSXXFPwS/z35ew==
 
 "@react-native/gradle-plugin@0.74.84":
   version "0.74.84"
