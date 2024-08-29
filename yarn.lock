@@ -1275,10 +1275,10 @@
   resolved "https://registry.npmjs.org/@babel/regjsgen/-/regjsgen-0.8.0.tgz"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.24.7", "@babel/runtime@^7.8.4":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
-  integrity sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.25.4", "@babel/runtime@^7.8.4":
+  version "7.25.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.25.4.tgz#6ef37d678428306e7d75f054d5b1bdb8cf8aa8ee"
+  integrity sha512-DSgLeL/FNcpXuzav5wfYvHCGvynXkJbn3Zvc3823AEe9nPwW9IK4UoCSS5yGymmQzN0pCPvivtgS6/8U2kkm1w==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -2027,29 +2027,28 @@
     temp-dir "^2.0.0"
     ws "^6.2.2"
 
-"@react-native/eslint-config@^0.74.84":
-  version "0.74.84"
-  resolved "https://registry.yarnpkg.com/@react-native/eslint-config/-/eslint-config-0.74.84.tgz#b39cc52811752afd7d6b9ffcf20c1b0f0f4cc1fd"
-  integrity sha512-QpMeMzg6QPN54K0LFasuqX52nyRF0dPIoh7ErXW7OoDatOMfxjB5CK7jVc1MqhKnUe5mz50BdQ44SOpzYr3xvw==
+"@react-native/eslint-config@^0.75.2":
+  version "0.75.2"
+  resolved "https://registry.yarnpkg.com/@react-native/eslint-config/-/eslint-config-0.75.2.tgz#845951e094f34e82ca3fc911ff8013923a81e055"
+  integrity sha512-lelWQ/mjwCLONrZ0mrCjWYPZWYckjuVCjdADOSMuEe7/tjwUZYW/e/iQdOvy1USqFwGHLLkTjE722EmQ6P+O7A==
   dependencies:
     "@babel/core" "^7.20.0"
     "@babel/eslint-parser" "^7.20.0"
-    "@react-native/eslint-plugin" "0.74.84"
+    "@react-native/eslint-plugin" "0.75.2"
     "@typescript-eslint/eslint-plugin" "^7.1.1"
     "@typescript-eslint/parser" "^7.1.1"
     eslint-config-prettier "^8.5.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-ft-flow "^2.0.1"
     eslint-plugin-jest "^27.9.0"
-    eslint-plugin-prettier "^4.2.1"
     eslint-plugin-react "^7.30.1"
     eslint-plugin-react-hooks "^4.6.0"
     eslint-plugin-react-native "^4.0.0"
 
-"@react-native/eslint-plugin@0.74.84":
-  version "0.74.84"
-  resolved "https://registry.yarnpkg.com/@react-native/eslint-plugin/-/eslint-plugin-0.74.84.tgz#f0e9618551c9340caca7624001f8ce32794715c9"
-  integrity sha512-pDzo4Qm1uPZQne2sv0QK89ePxP/i+ZHjrBW3rkTVStLvsDVdyFahMmt6bzJTdYL2cGgK2oyNmfXtvO57INOu3Q==
+"@react-native/eslint-plugin@0.75.2":
+  version "0.75.2"
+  resolved "https://registry.yarnpkg.com/@react-native/eslint-plugin/-/eslint-plugin-0.75.2.tgz#c206c9f869d4435386024855d9d193219a50a5cf"
+  integrity sha512-cxvSn+io32l+mbyDcpGGGoDXMwFxsVvb1JHSdfbzxi6+94gdD+ce0gqFJY4FCPg/ebJ2gCvQ8j0lt1NoAizUuQ==
 
 "@react-native/gradle-plugin@0.74.84":
   version "0.74.84"
@@ -5740,9 +5739,9 @@ metro@0.80.5, metro@^0.80.3:
     yargs "^17.6.2"
 
 micromatch@^4.0.4, micromatch@~4.0.7:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.7.tgz#33e8190d9fe474a9895525f5618eee136d46c2e5"
-  integrity sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.8.tgz#d66fa18f3a47076789320b9b1af32bd86d9fa202"
+  integrity sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==
   dependencies:
     braces "^3.0.3"
     picomatch "^2.3.1"
