@@ -26,7 +26,7 @@
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/native-stack": "^6.11.0",
     "@tanstack/react-query": "^5.59.15",
-    "@typescript-eslint/parser": "^8.7.0",
+    "@typescript-eslint/parser": "^8.18.1",
     "react": "18.3.1",
     "react-native": "0.75.3",
     "react-native-safe-area-context": "^4.14.0",
